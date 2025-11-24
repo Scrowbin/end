@@ -4,7 +4,7 @@ Dep. Variable:     Curricular units 2nd sem (grade)   R-squared:                
 Model:                                          OLS   Adj. R-squared:                  0.703
 Method:                               Least Squares   F-statistic:                     1497.
 Date:                              Mon, 24 Nov 2025   Prob (F-statistic):               0.00
-Time:                                      20:12:27   Log-Likelihood:                -10891.
+Time:                                      20:20:49   Log-Likelihood:                -10891.
 No. Observations:                              4424   AIC:                         2.180e+04
 Df Residuals:                                  4416   BIC:                         2.185e+04
 Df Model:                                         7                                         
