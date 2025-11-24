@@ -1,0 +1,33 @@
+                                   OLS Regression Results                                   
+============================================================================================
+Dep. Variable:     Curricular units 2nd sem (grade)   R-squared:                       0.703
+Model:                                          OLS   Adj. R-squared:                  0.703
+Method:                               Least Squares   F-statistic:                     1497.
+Date:                              Mon, 24 Nov 2025   Prob (F-statistic):               0.00
+Time:                                      20:12:27   Log-Likelihood:                -10891.
+No. Observations:                              4424   AIC:                         2.180e+04
+Df Residuals:                                  4416   BIC:                         2.185e+04
+Df Model:                                         7                                         
+Covariance Type:                          nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+const                                1.2172      0.531      2.290      0.022       0.175       2.259
+Admission grade                      0.0065      0.004      1.788      0.074      -0.001       0.014
+Age at enrollment                   -0.0293      0.006     -5.092      0.000      -0.041      -0.018
+Previous qualification (grade)      -0.0039      0.004     -0.971      0.332      -0.012       0.004
+Curricular units 1st sem (grade)     0.8912      0.009     99.412      0.000       0.874       0.909
+Unemployment rate                   -0.0060      0.017     -0.351      0.726      -0.039       0.027
+Inflation rate                      -0.0231      0.031     -0.740      0.459      -0.084       0.038
+GDP                                  0.0487      0.020      2.411      0.016       0.009       0.088
+==============================================================================
+Omnibus:                     2221.103   Durbin-Watson:                   1.992
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25884.524
+Skew:                          -2.116   Prob(JB):                         0.00
+Kurtosis:                      14.069   Cond. No.                     2.32e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.32e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
